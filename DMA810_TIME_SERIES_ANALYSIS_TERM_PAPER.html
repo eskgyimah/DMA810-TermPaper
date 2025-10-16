@@ -128,6 +128,20 @@
             font-style: italic;
         }
 
+        .supervisor-info {
+            font-size: 12pt;
+            margin: 3em 0 1.5em 0;
+        }
+
+        .supervisor-info .name {
+            font-weight: bold;
+            margin-bottom: 0.3em;
+        }
+
+        .supervisor-info .id {
+            font-style: italic;
+        }
+
         /* Content Styling */
         h1 {
             font-size: 18pt;
@@ -225,13 +239,17 @@
         li {
             margin-bottom: 0.5em;
             line-height: 1.2;
+            text-align: justify;
         }
 
         .reference {
-            text-indent: -2em;
-            margin-left: 2em;
-            margin-bottom: 0.5em;
+            text-indent: -2.5em;
+            margin-left: 2.5em;
+            padding-left: 0;
+            margin-bottom: 0.8em;
             font-size: 10pt;
+            line-height: 1.4;
+            text-align: justify;
         }
 
         .metadata {
@@ -299,8 +317,7 @@
                 <div class="name"><strong>Edward Solomon Kweku Gyimah</strong></div>
                 <div class="id"><em>(SE/DAT/24/0007)</em></div>
             </div>
-            <div class="author-info">
-                <div class="by"><strong></strong></div>
+            <div class="supervisor-info">
                 <div class="name"><strong>Dr. William Cantah</strong></div>
                 <div class="id"><em>Supervisor</em></div>
             </div>
@@ -390,7 +407,7 @@
 <div class="equation">\[\Delta y_t = \alpha + \beta t + \gamma y_{t-1} + \sum_{i=1}^p \delta_i \Delta y_{t-i} + \epsilon_t\]</div>
 <p><strong>KPSS Test (Kwiatkowski-Phillips-Schmidt-Shin):</strong></p>
 <div class="equation">\[y_t = \xi t + r_t + \epsilon_t\]</div>
-<p>where $r<em>t$ follows a random walk: $r</em>t = r<em>{t-1} + u</em>t$</p>
+<p>where $r_t$ follows a random walk: $r_t = r_{t-1} + u_t$</p>
 <p><strong>Interpretation Framework:</strong></p>
 <ul>
 <li><strong>Stationary:</strong> Both tests confirm stationarity (ADF rejects null, KPSS fails to reject null)</li>
@@ -1164,56 +1181,56 @@
 <p>The integration of traditional macroeconomic indicators with digital finance metrics represents an important evolution in economic analysis that reflects Ghana's position at the forefront of Africa's digital transformation. As other African economies follow similar trajectories, this methodological framework provides a valuable template for comprehensive time series analysis that captures both traditional and emerging dimensions of economic development.</p>
 <hr>
 <h1><span class="section-number">References</span></h1>
-<div class="reference">Aker, J. C., & Mbiti, I. M. (2010). Mobile phones and economic development in Africa. <em>Journal of Economic Perspectives</em>, 24(3), 207-232.</div>
-<div class="reference">Arestis, P., & Demetriades, P. (1997). Financial development and economic growth: Assessing the evidence. <em>Economic Journal</em>, 107(442), 783-799.</div>
-<div class="reference">Aron, J., & Muellbauer, J. (2006). Review of monetary policy in South Africa since 1994. <em>Journal of African Economies</em>, 15(5), 705-744.</div>
-<div class="reference">Bank of Ghana. (2024). <em>Monetary policy committee report, March 2024</em>. Bank of Ghana.</div>
-<div class="reference">Bawumia, M., & Abradu-Otoo, P. (2003). Monetary growth, exchange rates and inflation in Ghana: An error correction analysis. <em>Working Paper WP/BOG-2003/05</em>, Bank of Ghana.</div>
-<div class="reference">Box, G. E. P., & Jenkins, G. M. (1976). <em>Time series analysis: Forecasting and control</em> (Revised ed.). Holden-Day.</div>
-<div class="reference">Chuku, A. C. (2012). Linear and asymmetric impacts of monetary policy on economic activity in Nigeria. <em>Journal of Economic Studies</em>, 39(5), 569-591.</div>
-<div class="reference">D'Andrea, S., & Limodio, N. (2019). High-speed internet, financial technology, and banking in Africa. <em>CEPR Discussion Paper DP14124</em>.</div>
-<div class="reference">Enders, W. (2014). <em>Applied econometric time series</em> (4th ed.). Wiley.</div>
-<div class="reference">Ghana Statistical Service. (2024). <em>Ghana living standards survey round 7 (GLSS7): Main report</em>. Ghana Statistical Service.</div>
-<div class="reference">Hamilton, J. D. (1994). <em>Time series analysis</em>. Princeton University Press.</div>
-<div class="reference">International Monetary Fund. (2024). <em>Ghana: Request for arrangement under the extended credit facility—press release, staff report</em>. IMF Country Report No. 24/67.</div>
-<div class="reference">Katamba, A., Mugisha, S., & Bagonza, J. (2019). Modeling and forecasting inflation rates in Uganda using ARIMA models. <em>Applied Economics and Finance</em>, 6(6), 50-58.</div>
-<div class="reference">Nyoni, T. (2018). Modeling and forecasting inflation in Kenya: Recent insights from ARIMA and GARCH analysis. <em>Dimorian Review</em>, 5(6), 16-40.</div>
-<div class="reference">Perron, P. (2006). Dealing with structural breaks. <em>Journal of Economic Literature</em>, 44(1), 123-177.</div>
-<div class="reference">Simmons, R. (1999). The performance of the Ghanaian cedi since 1990: Policy lessons. <em>Journal of African Economies</em>, 8(3), 267-295.</div>
-<div class="reference">Suri, T., & Jack, W. (2016). The long-run poverty and gender impacts of mobile money. <em>Science</em>, 354(6317), 1288-1292.</div>
-<div class="reference">Weeks, J. (2012). <em>Macroeconomic impact of capital flows in Sub-Saharan Africa</em>. In <em>Managing capital flows: The search for a framework</em> (pp. 431-462). Oxford University Press.</div>
-<div class="reference">World Bank. (2024). <em>Ghana economic update: Charting the path to debt sustainability</em>. World Bank Group.</div>
-<div class="reference">Akaike, H. (1974). A new look at the statistical model identification. <em>IEEE Transactions on Automatic Control</em>, 19(6), 716-723.</div>
-<div class="reference">Bai, J., & Perron, P. (2003). Computation and analysis of multiple structural change models. <em>Journal of Applied Econometrics</em>, 18(1), 1-22.</div>
-<div class="reference">Barnichon, R., & Matthes, C. (2018). Functional approximation of impulse responses. <em>Journal of Monetary Economics</em>, 99, 41-55.</div>
-<div class="reference">Brockwell, P. J., & Davis, R. A. (2016). <em>Introduction to time series and forecasting</em> (3rd ed.). Springer.</div>
-<div class="reference">Dickey, D. A., & Fuller, W. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. <em>Journal of the American Statistical Association</em>, 74(366), 427-431.</div>
-<div class="reference">Diebold, F. X., & Mariano, R. S. (1995). Comparing predictive accuracy. <em>Journal of Business & Economic Statistics</em>, 13(3), 253-263.</div>
-<div class="reference">Elliott, G., Rothenberg, T. J., & Stock, J. H. (1996). Efficient tests for an autoregressive unit root. <em>Econometrica</em>, 64(4), 813-836.</div>
-<div class="reference">Franses, P. H., & van Dijk, D. (2000). <em>Non-linear time series models in empirical finance</em>. Cambridge University Press.</div>
-<div class="reference">Granger, C. W. J., & Newbold, P. (1986). <em>Forecasting economic time series</em> (2nd ed.). Academic Press.</div>
-<div class="reference">Hansen, B. E. (2001). The new econometrics of structural change: Dating breaks in U.S. labor productivity. <em>Journal of Economic Perspectives</em>, 15(4), 117-128.</div>
-<div class="reference">Harvey, A. C. (1990). <em>Forecasting, structural time series models and the Kalman filter</em>. Cambridge University Press.</div>
-<div class="reference">Hyndman, R. J., & Athanasopoulos, G. (2021). <em>Forecasting: Principles and practice</em> (3rd ed.). OTexts.</div>
-<div class="reference">Hyndman, R. J., & Khandakar, Y. (2008). Automatic time series forecasting: The forecast package for R. <em>Journal of Statistical Software</em>, 27(3), 1-22.</div>
-<div class="reference">Johansen, S. (1991). Estimation and hypothesis testing of cointegration vectors in Gaussian vector autoregressive models. <em>Econometrica</em>, 59(6), 1551-1580.</div>
-<div class="reference">Kwiatkowski, D., Phillips, P. C. B., Schmidt, P., & Shin, Y. (1992). Testing the null hypothesis of stationarity against the alternative of a unit root. <em>Journal of Econometrics</em>, 54(1-3), 159-178.</div>
-<div class="reference">Ljung, G. M., & Box, G. E. P. (1978). On a measure of lack of fit in time series models. <em>Biometrika</em>, 65(2), 297-303.</div>
-<div class="reference">Lütkepohl, H. (2005). <em>New introduction to multiple time series analysis</em>. Springer.</div>
-<div class="reference">Mensah, J. O., Alagidede, P., & Abor, J. Y. (2020). Exchange rate volatility and economic growth in Ghana: A cointegration approach. <em>Review of Development Finance</em>, 10(1), 24-33.</div>
-<div class="reference">Nelson, C. R., & Plosser, C. I. (1982). Trends and random walks in macroeconomic time series: Some evidence and implications. <em>Journal of Monetary Economics</em>, 10(2), 139-162.</div>
-<div class="reference">Ng, S., & Perron, P. (2001). Lag length selection and the construction of unit root tests with good size and power. <em>Econometrica</em>, 69(6), 1519-1554.</div>
-<div class="reference">Osei, V., & Gyapong, A. O. (2017). Macroeconomic determinants of inflation in Ghana (2000-2013). <em>International Finance and Banking</em>, 4(1), 20-38.</div>
-<div class="reference">Owusu-Sekyere, E., Jordaan, H., & Chouchane, H. (2017). Evaluation of some time series models for forecasting cocoa production in Ghana. <em>Journal of Economics, Management and Trade</em>, 18(2), 1-17.</div>
-<div class="reference">Phillips, P. C. B., & Perron, P. (1988). Testing for a unit root in time series regression. <em>Biometrika</em>, 75(2), 335-346.</div>
-<div class="reference">Quartey, P., & Afful-Mensah, G. (2014). Financial and monetary integration in Africa: The role of mobile money. In <em>Regional economic integration in West Africa</em> (pp. 9-31). Springer.</div>
-<div class="reference">Schwarz, G. (1978). Estimating the dimension of a model. <em>Annals of Statistics</em>, 6(2), 461-464.</div>
-<div class="reference">Seabold, S., & Perktold, J. (2010). Statsmodels: Econometric and statistical modeling with Python. <em>Proceedings of the 9th Python in Science Conference</em>, 57, 10-25080.</div>
-<div class="reference">Shumway, R. H., & Stoffer, D. S. (2017). <em>Time series analysis and its applications: With R examples</em> (4th ed.). Springer.</div>
-<div class="reference">Stock, J. H., & Watson, M. W. (2001). Vector autoregressions. <em>Journal of Economic Perspectives</em>, 15(4), 101-115.</div>
-<div class="reference">Stock, J. H., & Watson, M. W. (2016). Dynamic factor models, factor-augmented vector autoregressions, and structural vector autoregressions in macroeconomics. In <em>Handbook of macroeconomics</em> (Vol. 2, pp. 415-525). Elsevier.</div>
-<div class="reference">Tsay, R. S. (2010). <em>Analysis of financial time series</em> (3rd ed.). Wiley.</div>
-<div class="reference">Zivot, E., & Andrews, D. W. K. (1992). Further evidence on the great crash, the oil-price shock, and the unit-root hypothesis. <em>Journal of Business & Economic Statistics</em>, 10(3), 251-270.</div>
+<div class="reference">[1] Aker, J. C., & Mbiti, I. M. (2010). Mobile phones and economic development in Africa. <em>Journal of Economic Perspectives</em>, 24(3), 207-232.</div>
+<div class="reference">[2] Arestis, P., & Demetriades, P. (1997). Financial development and economic growth: Assessing the evidence. <em>Economic Journal</em>, 107(442), 783-799.</div>
+<div class="reference">[3] Aron, J., & Muellbauer, J. (2006). Review of monetary policy in South Africa since 1994. <em>Journal of African Economies</em>, 15(5), 705-744.</div>
+<div class="reference">[4] Bank of Ghana. (2024). <em>Monetary policy committee report, March 2024</em>. Bank of Ghana.</div>
+<div class="reference">[5] Bawumia, M., & Abradu-Otoo, P. (2003). Monetary growth, exchange rates and inflation in Ghana: An error correction analysis. <em>Working Paper WP/BOG-2003/05</em>, Bank of Ghana.</div>
+<div class="reference">[6] Box, G. E. P., & Jenkins, G. M. (1976). <em>Time series analysis: Forecasting and control</em> (Revised ed.). Holden-Day.</div>
+<div class="reference">[7] Chuku, A. C. (2012). Linear and asymmetric impacts of monetary policy on economic activity in Nigeria. <em>Journal of Economic Studies</em>, 39(5), 569-591.</div>
+<div class="reference">[8] D'Andrea, S., & Limodio, N. (2019). High-speed internet, financial technology, and banking in Africa. <em>CEPR Discussion Paper DP14124</em>.</div>
+<div class="reference">[9] Enders, W. (2014). <em>Applied econometric time series</em> (4th ed.). Wiley.</div>
+<div class="reference">[10] Ghana Statistical Service. (2024). <em>Ghana living standards survey round 7 (GLSS7): Main report</em>. Ghana Statistical Service.</div>
+<div class="reference">[11] Hamilton, J. D. (1994). <em>Time series analysis</em>. Princeton University Press.</div>
+<div class="reference">[12] International Monetary Fund. (2024). <em>Ghana: Request for arrangement under the extended credit facility—press release, staff report</em>. IMF Country Report No. 24/67.</div>
+<div class="reference">[13] Katamba, A., Mugisha, S., & Bagonza, J. (2019). Modeling and forecasting inflation rates in Uganda using ARIMA models. <em>Applied Economics and Finance</em>, 6(6), 50-58.</div>
+<div class="reference">[14] Nyoni, T. (2018). Modeling and forecasting inflation in Kenya: Recent insights from ARIMA and GARCH analysis. <em>Dimorian Review</em>, 5(6), 16-40.</div>
+<div class="reference">[15] Perron, P. (2006). Dealing with structural breaks. <em>Journal of Economic Literature</em>, 44(1), 123-177.</div>
+<div class="reference">[16] Simmons, R. (1999). The performance of the Ghanaian cedi since 1990: Policy lessons. <em>Journal of African Economies</em>, 8(3), 267-295.</div>
+<div class="reference">[17] Suri, T., & Jack, W. (2016). The long-run poverty and gender impacts of mobile money. <em>Science</em>, 354(6317), 1288-1292.</div>
+<div class="reference">[18] Weeks, J. (2012). <em>Macroeconomic impact of capital flows in Sub-Saharan Africa</em>. In <em>Managing capital flows: The search for a framework</em> (pp. 431-462). Oxford University Press.</div>
+<div class="reference">[19] World Bank. (2024). <em>Ghana economic update: Charting the path to debt sustainability</em>. World Bank Group.</div>
+<div class="reference">[20] Akaike, H. (1974). A new look at the statistical model identification. <em>IEEE Transactions on Automatic Control</em>, 19(6), 716-723.</div>
+<div class="reference">[21] Bai, J., & Perron, P. (2003). Computation and analysis of multiple structural change models. <em>Journal of Applied Econometrics</em>, 18(1), 1-22.</div>
+<div class="reference">[22] Barnichon, R., & Matthes, C. (2018). Functional approximation of impulse responses. <em>Journal of Monetary Economics</em>, 99, 41-55.</div>
+<div class="reference">[23] Brockwell, P. J., & Davis, R. A. (2016). <em>Introduction to time series and forecasting</em> (3rd ed.). Springer.</div>
+<div class="reference">[24] Dickey, D. A., & Fuller, W. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. <em>Journal of the American Statistical Association</em>, 74(366), 427-431.</div>
+<div class="reference">[25] Diebold, F. X., & Mariano, R. S. (1995). Comparing predictive accuracy. <em>Journal of Business & Economic Statistics</em>, 13(3), 253-263.</div>
+<div class="reference">[26] Elliott, G., Rothenberg, T. J., & Stock, J. H. (1996). Efficient tests for an autoregressive unit root. <em>Econometrica</em>, 64(4), 813-836.</div>
+<div class="reference">[27] Franses, P. H., & van Dijk, D. (2000). <em>Non-linear time series models in empirical finance</em>. Cambridge University Press.</div>
+<div class="reference">[28] Granger, C. W. J., & Newbold, P. (1986). <em>Forecasting economic time series</em> (2nd ed.). Academic Press.</div>
+<div class="reference">[29] Hansen, B. E. (2001). The new econometrics of structural change: Dating breaks in U.S. labor productivity. <em>Journal of Economic Perspectives</em>, 15(4), 117-128.</div>
+<div class="reference">[30] Harvey, A. C. (1990). <em>Forecasting, structural time series models and the Kalman filter</em>. Cambridge University Press.</div>
+<div class="reference">[31] Hyndman, R. J., & Athanasopoulos, G. (2021). <em>Forecasting: Principles and practice</em> (3rd ed.). OTexts.</div>
+<div class="reference">[32] Hyndman, R. J., & Khandakar, Y. (2008). Automatic time series forecasting: The forecast package for R. <em>Journal of Statistical Software</em>, 27(3), 1-22.</div>
+<div class="reference">[33] Johansen, S. (1991). Estimation and hypothesis testing of cointegration vectors in Gaussian vector autoregressive models. <em>Econometrica</em>, 59(6), 1551-1580.</div>
+<div class="reference">[34] Kwiatkowski, D., Phillips, P. C. B., Schmidt, P., & Shin, Y. (1992). Testing the null hypothesis of stationarity against the alternative of a unit root. <em>Journal of Econometrics</em>, 54(1-3), 159-178.</div>
+<div class="reference">[35] Ljung, G. M., & Box, G. E. P. (1978). On a measure of lack of fit in time series models. <em>Biometrika</em>, 65(2), 297-303.</div>
+<div class="reference">[36] Lütkepohl, H. (2005). <em>New introduction to multiple time series analysis</em>. Springer.</div>
+<div class="reference">[37] Mensah, J. O., Alagidede, P., & Abor, J. Y. (2020). Exchange rate volatility and economic growth in Ghana: A cointegration approach. <em>Review of Development Finance</em>, 10(1), 24-33.</div>
+<div class="reference">[38] Nelson, C. R., & Plosser, C. I. (1982). Trends and random walks in macroeconomic time series: Some evidence and implications. <em>Journal of Monetary Economics</em>, 10(2), 139-162.</div>
+<div class="reference">[39] Ng, S., & Perron, P. (2001). Lag length selection and the construction of unit root tests with good size and power. <em>Econometrica</em>, 69(6), 1519-1554.</div>
+<div class="reference">[40] Osei, V., & Gyapong, A. O. (2017). Macroeconomic determinants of inflation in Ghana (2000-2013). <em>International Finance and Banking</em>, 4(1), 20-38.</div>
+<div class="reference">[41] Owusu-Sekyere, E., Jordaan, H., & Chouchane, H. (2017). Evaluation of some time series models for forecasting cocoa production in Ghana. <em>Journal of Economics, Management and Trade</em>, 18(2), 1-17.</div>
+<div class="reference">[42] Phillips, P. C. B., & Perron, P. (1988). Testing for a unit root in time series regression. <em>Biometrika</em>, 75(2), 335-346.</div>
+<div class="reference">[43] Quartey, P., & Afful-Mensah, G. (2014). Financial and monetary integration in Africa: The role of mobile money. In <em>Regional economic integration in West Africa</em> (pp. 9-31). Springer.</div>
+<div class="reference">[44] Schwarz, G. (1978). Estimating the dimension of a model. <em>Annals of Statistics</em>, 6(2), 461-464.</div>
+<div class="reference">[45] Seabold, S., & Perktold, J. (2010). Statsmodels: Econometric and statistical modeling with Python. <em>Proceedings of the 9th Python in Science Conference</em>, 57, 10-25080.</div>
+<div class="reference">[46] Shumway, R. H., & Stoffer, D. S. (2017). <em>Time series analysis and its applications: With R examples</em> (4th ed.). Springer.</div>
+<div class="reference">[47] Stock, J. H., & Watson, M. W. (2001). Vector autoregressions. <em>Journal of Economic Perspectives</em>, 15(4), 101-115.</div>
+<div class="reference">[48] Stock, J. H., & Watson, M. W. (2016). Dynamic factor models, factor-augmented vector autoregressions, and structural vector autoregressions in macroeconomics. In <em>Handbook of macroeconomics</em> (Vol. 2, pp. 415-525). Elsevier.</div>
+<div class="reference">[49] Tsay, R. S. (2010). <em>Analysis of financial time series</em> (3rd ed.). Wiley.</div>
+<div class="reference">[50] Zivot, E., & Andrews, D. W. K. (1992). Further evidence on the great crash, the oil-price shock, and the unit-root hypothesis. <em>Journal of Business & Economic Statistics</em>, 10(3), 251-270.</div>
 <hr>
 <div class="metadata">
 <strong>Word Count:</strong> 8,247 | 
